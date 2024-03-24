@@ -591,7 +591,7 @@ table {
 }
 
 .woocommerce a.button.add_to_cart_button {
-  display: none;
+  /*display: none;*/
 }
 .shop-content a.button21,
 .woocommerce a.button21 {
@@ -606,7 +606,7 @@ table {
     width: 236px;
 }
 .single_add_to_cart_button {
-  display: none;
+  /*display: none;*/
 }
 .products #formOrderOneClick  .popup  .close_order,
 .products #formOrderOneClick .popup  .close_order:hover,
@@ -677,4 +677,35 @@ table {
     width: 153px;
     display: flex;
     justify-content: center;
+}
+#rqa_message_row {
+  display: none;
+}
+.add-request-quote-button {
+  background-color: #0066b4;
+    color: #ffffff;
+    padding: .618em 1em;
+    font-size: 100%;
+    margin: 0;
+    line-height: 1;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    overflow: visible;
+    padding: .618em 1em;
+    font-weight: 700;
+    border-radius: 3px;
+    left: auto;
+    /* color: #515151; */
+    /* background-color: #ebe9eb; */
+    border: 0;
+    white-space: nowrap;
+    display: inline-block;
+    background-image: none;
+    box-shadow: none;
+    text-shadow: none;
+}
+.add-request-quote-button:hover, .add-request-quote-button:focus, .add-request-quote-button:active {
+    background-color: #044a80;
+    color: #ffffff;
 }

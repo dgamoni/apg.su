@@ -86,8 +86,8 @@ register_nav_menus(
 
 
 // NORMALIZE URL TAXONOMY
-	add_filter('post_link', 'rating_permalink', 10, 3);
-	add_filter('post_type_link', 'rating_permalink', 10, 3);
+	//add_filter('post_link', 'rating_permalink', 10, 3);
+	//add_filter('post_type_link', 'rating_permalink', 10, 3);
 
 	function rating_permalink($permalink, $post_id, $leavename) {
 		if (strpos($permalink, '%news_year%') === FALSE) return $permalink;
@@ -103,7 +103,7 @@ register_nav_menus(
 		return str_replace('%news_year%', $taxonomy_slug, $permalink);
 	}
 
-	add_filter( 'term_link', 'taxonomy_link', 10, 3 );
+	//add_filter( 'term_link', 'taxonomy_link', 10, 3 );
 	function taxonomy_link( $link, $term, $taxonomy ){
 		if ( $taxonomy !== 'news_year' )
 			return $taxonomy_link;
@@ -528,6 +528,36 @@ return '
 
 
 
+add_action( 'after_setup_theme', 'woocommerce_support' );
+function woocommerce_support() {
+    add_theme_support( 'woocommerce' );
+}
 
+function register_shop_widgets(){
+	register_sidebar( array(
+		'name' => "Сайдебар для магазина",
+		'id' => 'shop-sidebar',
+		'description' => 'Эти виджеты будут показаны в левой колонке сайта',
+		'before_title' => '<h1>',
+		'after_title' => '</h1>'
+	) );
+}
+add_action( 'widgets_init', 'register_shop_widgets' );
 
-?>
+// Change number or products per row to 3
+add_filter('loop_shop_columns', 'loop_columns');
+if (!function_exists('loop_columns')) {
+	function loop_columns() {
+		return 3; // 3 products per row
+	}
+}
+
+//show attributes after summary in product single view
+add_action('woocommerce_single_product_summary', function() {
+	//template for this is in storefront-child/woocommerce/single-product/product-attributes.php
+	global $product;
+	echo $product->list_attributes();
+}, 25);
+
+/* Remove the tabs */
+remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_product_data_tabs', 10);

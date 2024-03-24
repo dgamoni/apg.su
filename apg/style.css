@@ -378,3 +378,63 @@ footer .row .copyright {
 .lifeCicle .lifeGen a {color: #fff;text-transform: uppercase;z-index: 999;position: relative;}
 .lifeCicle .lifeGen .twoimg img:nth-child(2) {display: none;position: absolute;margin-top: -15px;z-index: 99;}
 .lifeCicle .arrow {height: 30px;width: 30px;background-image: url("/wp-content/themes/apg/img/arrow_lifeCicle.png");background-position: center;background-size: contain;background-repeat: no-repeat;filter: invert(1);z-index: 9;}
+
+
+/*shop*/
+
+ul li {
+  list-style: none;
+}
+.woocommerce-result-count {
+  display: none;
+}
+.widget_product_categories h1, .widget h1, .product_title {
+      padding-left: 0;
+    padding-right: 0;
+    color: #000;
+    font-size: 26px;
+    line-height: 28px;
+}
+.shop-sidebar ul li {
+
+}
+.shop-content {
+
+}
+.woocommerce-ordering {
+      text-align: right;
+    margin-bottom: 20px;
+}
+.widget {
+  padding: 10px 0;
+}
+.product {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+ul.yith-wcan-group li {
+  padding: 5px;
+}
+ul.yith-wcan-group li a {
+  padding: 5px;
+}
+.woocommerce-Price-amount {
+    color: #39aa40;
+    font-weight: 300;
+    font-size: 20px;
+}
+tr:nth-child(2n+1) {
+    background: #f7f7f7;
+}
+td {
+    padding: 6px 14px;
+}
+table tr td:nth-child(n+2), table tr th:nth-child(n+2) {
+    text-align: center;
+}
+table {
+    margin-bottom: 10px;
+}
+.quantity {
+  margin: 10px 0;
+}

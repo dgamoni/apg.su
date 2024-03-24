@@ -1,0 +1,20 @@
+.container.container--plants--single{
+	max-width:800px;
+}
+.container.container--plants--single .text{
+	text-align: justify;
+}
+.container--plants--single h3{
+	color: #029bb5;
+	font-weight: bold;
+}
+.container--plants--single .contact{
+	color: #0092c6;
+}
+.container--plants--single .margin{
+	margin-top: 50px;
+}
+.container--plants--single #map_mini{
+	height: 300px;
+	width: 100%;
+}

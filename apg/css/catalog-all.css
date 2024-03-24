@@ -1,0 +1,118 @@
+h3{
+	font-size: 1.8rem;
+	font-weight: bold;
+}
+.bg_pet{
+	padding: 30px 0 50px;
+	background: #1392aa; /* Old browsers */
+	background: -moz-linear-gradient(top, #1392aa 0%, #71cddf 50%, #1392aa 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #1392aa 0%,#71cddf 50%,#1392aa 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #1392aa 0%,#71cddf 50%,#1392aa 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.bg_pet h3{
+	color: #FFF;
+	margin: 0 0 20px;
+}
+.bg_pet .col-md-4{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.bg_pet .col-md-4:not(:last-child){
+	border-right: 1px solid #fff;
+}
+.bg_pet .block--img img{
+	height: 240px;
+}
+.bg_pet .block--img img:nth-child(2){
+	display: none;
+}
+.bg_pet a:hover .block--img img:nth-child(2){
+	display: inline-block;
+}
+.bg_pet a:hover .block--img img:nth-child(1){
+	display: none;
+}
+.bg_pet a{
+	color: #fff;
+	font-weight: bold;
+}
+.bg_pet .text{
+	text-align: center;
+	font-size: 1.4rem;
+	font-family: "PT SANS";
+	line-height: 1.5;
+	text-shadow: 1px 1px 2px #1695ab;
+	font-weight: 400;
+}
+
+
+
+
+
+.bottle h3{
+	display: inline-block;
+	color: #029bb5;
+	margin: 30px 0 0;
+	border-bottom: 5px solid #dd15ea;
+}
+.bottle .bottle--block{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	flex-wrap: wrap;
+}
+.bottle--block--obj{
+	margin: 0 40px 40px;
+}
+.bottle .bottle--block .bottle--block--obj .title{
+	color: #fff;
+	box-shadow: 0px 1px 2px #0990a6;
+	border-radius: 100%;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	margin: 0 auto;
+	justify-content: center;
+	align-items: center;
+	background: #57b7c8;
+	background: -moz-linear-gradient(top, #57b7c8 0%, #0d91a8 100%);
+	background: -webkit-linear-gradient(top, #57b7c8 0%,#0d91a8 100%);
+	background: linear-gradient(to bottom, #57b7c8 0%,#0d91a8 100%);
+	margin-top: 10px;
+}
+
+
+
+
+.blockend{
+	padding: 30px 0;
+	text-align: center;
+	background: #1392aa;
+	background: -moz-linear-gradient(top, #1392aa 0%, #71cddf 100%);
+	background: -webkit-linear-gradient(top, #1392aa 0%,#71cddf 100%);
+	background: linear-gradient(to bottom, #1392aa 0%,#71cddf 100%);
+}
+
+.blockend .text1{
+	border-bottom: 5px solid #15eae6;
+}
+.blockend .text2{
+	border-bottom: 5px solid #eacc16;
+}
+
+.blockend a{
+	color: #fff;
+	font-weight: bold;
+	font-size: 2rem;
+	text-decoration: none;
+	margin-bottom: 20px;
+	display: inline-block;
+}
+
+
+
+
+
+
+
+

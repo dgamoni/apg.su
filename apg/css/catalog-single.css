@@ -1,0 +1,281 @@
+h1{
+	font-size: 2rem;
+	font-weight: bold;
+}
+h2{
+	color: #029bb5;
+	font-size: 2.6rem;
+	font-weight: normal;
+}
+.container--catalog--single .bg{
+	height: 280px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.container--catalog--single .bg .production{
+	text-align: right;
+}
+.container--catalog--single .bg .production img{
+	margin-top: -70px;
+	max-height: 350px;
+}
+
+
+
+
+
+
+
+
+
+#formInner .tabsCatalog
+{
+	width: 677px;
+	padding: 0;
+	text-align: center;  
+	font-weight: bold;
+	background: #01a1dd
+}
+
+.titleforTable,
+.titleStandarts
+{
+	text-transform: uppercase;
+	position: relative;
+	height: 35px;
+	padding: 0;
+	line-height: 35px;
+	font-size: 16px;
+	font-family: 'PT Sans';
+	font-weight: bold;
+	text-align: center;  
+	background: #043793;
+	display: none
+}
+.titleStandarts
+{
+	display: block;
+}
+.titleforTableStandart
+{
+	display: none
+}
+.emkostBox,
+.gorloBox
+{
+	width: 25%;
+	background-color: #01a1dd;
+	height: 70px;
+	line-height: 70px;
+	border: 1px solid #007fb7;
+	border-left: none;
+	border-top: none;
+	float: left;
+	text-transform: uppercase;
+	display: inline;
+	font-size: 14px;
+	cursor: pointer;
+	display: none
+}
+.gorloBox
+{
+	display: block;
+}
+.gorloWraper 
+{
+	display: none
+}
+#emkostTitle,
+#emkostMainBox,
+.emkostBox
+{
+	display: block
+}
+
+.emkostBox:hover,
+.gorloBox:hover
+{
+	background: #07ccff
+}
+
+.titleStandarts
+{
+	float: left;
+	text-align: center;
+	display: inline;
+}
+.st1{
+	width: 30%;
+}
+.st2{
+	width: 40%;
+}
+.st3{
+	width: 30%;
+}
+/*.formInner img{visibi: none}*/
+.standartInnerIn
+{
+	background: #05cdff;
+	padding: 8px 0;
+	border-bottom: 1px solid #009dcf
+}
+.standartInnerIn span
+{
+	float: left;
+}
+.bgBlueForTbl
+{
+	background: #07ccff
+}
+.standartsInner
+{
+	display: none
+}
+#kolpacsBox .contentTabsPolimer #gorloTitle,
+#kolpacsBox .contentTabsPolimer .gorloWraper
+{
+	display: block;
+}
+.aDecor:hover
+{
+	border-bottom: 3px solid #fff;
+	text-decoration: none
+}
+#catMenuSecond .aDecor
+{
+	text-decoration: none;
+	margin-right: 25px
+}
+#catMenuSecond .aDecor:hover
+{ 
+	border-bottom: 5px solid #fff !important;
+}
+#videoBox .aDecor:hover,
+#mapBox .aDecor:hover
+{
+	border-bottom: 5px solid #fff !important
+}
+/*#preform
+{
+	border-bottom: 5px solid #9beb16
+}
+#preform:hover
+{
+	border-bottom: none
+}*/
+#readyPat
+{
+	border-bottom: 5px solid #dd15ea
+}
+#readyPat:hover,
+#pageTitle #servLnk:hover
+{
+	border-bottom: 5px solid #fff
+}
+#onTitleFuck a:hover,
+#onTitleFuck2 a:hover
+{
+	border-bottom: 5px solid transparent
+}
+#onTitleFuck a
+{
+	border-bottom: 5px solid #15eae6;
+	padding-bottom: 5px;
+}
+#onTitleFuck2 a
+{
+	border-bottom: 5px solid #eacc16;
+	padding-bottom: 5px;
+}
+#pageTitle #servLnk
+{
+	text-decoration: none;
+	border-bottom: 5px solid #eacc12
+}
+.posRelative .breadcrumbs {
+	margin-left: 40px;
+	font-size: 8pt;
+	margin-bottom: 10px;
+}
+.mainTextWraperCatInner .breadcrumbs {
+margin-left: 0px;
+}
+#mainTextWraperInner .breadcrumbs {
+margin-left: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#tabsHeader{
+	display: flex;
+	justify-content: space-around;
+}
+#tabsHeader .tab{
+	width: 50%;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+#tabsHeader .tab:first-child{
+	background: #043793;
+}
+#tabsHeader .tab:nth-child(2){
+	background: #bc42ff;
+}
+#tabsHeader .tab a{
+	display: block;
+	color: #fff;
+	padding: 15px 0;
+	cursor: pointer;
+}
+.tabsContent>div{
+	background-color: #01a1dd;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+}
+.tabsContent .titleforTable{
+	color: #fff;
+	margin: 0;
+}
+#emkostMainBox{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	text-align: center;
+}
+#emkostMainBox > div{
+	width: 25%;
+}
+.clear:after 
+{
+	content: "&nbsp;";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+	line-height: 0
+}
+.catalog_dop_information{
+	font-size: 0.8rem;
+	text-align: right;
+	margin-top: 5px;
+}
+
+
+

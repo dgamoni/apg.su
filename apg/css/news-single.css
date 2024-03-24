@@ -1,0 +1,15 @@
+.container--news--single{
+	font-size: 1rem;
+	line-height: 1.6;
+	text-align: justify;
+}
+.container--news--single ul{
+	padding: 0 0 0 30px;
+}
+.headline.news--single .time{
+	margin-top: -10px;
+	margin-bottom: 20px;
+	margin-left: 3px;
+	font-size: 0.8rem;
+	color: #029bb5;
+}

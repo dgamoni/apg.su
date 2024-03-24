@@ -1,0 +1,210 @@
+header{
+  margin: 0;
+}
+h3{
+  color: #636363;
+  border-bottom: 5px solid #000;
+  display: inline-block;
+  font-size: 2rem;
+  font-family: "PT SANS";
+  font-weight: 900;
+}
+
+.bg--block--slider {
+  background: linear-gradient(to bottom, #1695ab 0%, #77d3e2 100%);
+}
+.block--slider {
+  height: 620px;
+  overflow: hidden;
+  background-color: #fff;
+}
+.block--slider>div.show {
+  opacity: 1;
+}
+.block--slider>div {
+  height: 620px;
+  overflow: hidden;
+  position: relative;
+  opacity: 0;
+  transition: 1s;
+}
+.block--slider>div:nth-child(2) {
+  top: -100%;
+}
+.block--slider>div:nth-child(3) {
+  top: -200%;
+}
+.block--slider .col-md-3 {
+  padding: 0 2px;
+  overflow: hidden;
+}
+.block--slider .col-md-3 img {
+  width: 100%;
+}
+.block--carousel {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.block--carousel .arrow {
+  background-image: url("/wp-content/themes/apg/img/arrow.gif");
+  width: 26px;
+  height: 94px;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  transition: 0.2s;
+  cursor: pointer;
+  z-index: 999;
+}
+.block--carousel .arrow.left {
+  margin-left: 0;
+}
+.block--carousel .arrow.left:hover {
+  transform: translateX(-5px);
+}
+.block--carousel .arrow.right {
+  transform: rotate(180deg);
+  margin-left: 0;
+}
+.block--carousel .arrow.right:hover {
+  transform: rotate(180deg) translateX(-5px);
+}
+.block--carousel .container--carousel--hidden {
+  width: 100%;
+  overflow: hidden;
+  height: 100px;
+  margin: 0;
+  display: inline-block;
+}
+.block--carousel .container--carousel {
+  width: 400%;
+  transform: translateX(0);
+  transition: 2s;
+}
+.block--carousel .container--carousel>div {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  width: 360px;
+  margin: 0;
+  padding: 0;
+}
+.block--carousel .container--carousel .obj--img {
+  width: 100px;
+  text-align: center;
+  margin-right: 10px;
+}
+.block--carousel .container--carousel a {
+  color: #222;
+  font-size: 1.2rem;
+  padding: 10px;
+  box-sizing: content-box;
+  line-height: 1.2;
+}
+
+.news{padding: 20px 0;}
+.news ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.news ul li{
+  margin: 0 10px 0 0;
+  padding: 3px 11px;
+  list-style: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+  letter-spacing: 0.2px;
+}
+.news ul li.action{
+  background-color: #08c;
+  color: #fff;
+}
+
+
+.container--map_plants .map_plants{
+  background-image: url(/wp-content/themes/apg/img/map.jpg);
+  -webkit-background-size: contain;
+       -o-background-size: contain;
+          background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 330px;
+  margin-top: -60px;
+}
+.container--map_plants .map_plants_eng{
+  background-image: url(/wp-content/themes/apg/img/map_eng.jpg);
+  -webkit-background-size: contain;
+       -o-background-size: contain;
+          background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 330px;
+  margin-top: -60px;
+}
+
+.container--video .block--video .img{
+  background-image: url(/wp-content/themes/apg/img/video.jpg);
+  -webkit-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 100%;
+}
+.container--video .block--video{
+  background-color: #1d9aaf;
+  transform: skew(0deg,-5deg);
+  box-shadow: 20px 4px 34px rgba(0, 0, 0, 0.4);
+}
+.container--video .block--video a:not(.a_img){
+  color: #fff;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  font-family: "PT SANS";
+  line-height: 1.2;
+  display: block;
+  padding: 5px 13px;
+}
+
+
+
+.container--map_plants h3{border-color: #9de913;}
+.container--video h3{border-color: #14e9e3;}
+.container--map_plants h3:hover, .container--video h3:hover{border-color: transparent;}
+
+.seoText{
+  margin-top:40px;
+  font-family: "PT SANS";
+}
+.seoText ul{
+  margin-left: 25px;
+}
+
+
+
+
+.up{
+  display: flex;
+  margin: 20px 0;
+}
+.up .up--object{
+  width: 50%;
+  padding: 0px 40px;
+}
+.up .up--object a > div{
+  display: flex;
+  margin: 10px 0;
+  align-items: center;
+  font-size: 1.2rem;
+}
+.up .up--object .i{
+  margin-right: 10px;
+}
+.up .up--object .i img{
+  width: 80px; height: 80px;
+}

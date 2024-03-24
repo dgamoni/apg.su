@@ -392,7 +392,8 @@ ul li {
       padding-left: 0;
     padding-right: 0;
     color: #000;
-    font-size: 26px;
+    /*font-size: 26px;*/
+    font-size: 25px;
     line-height: 28px;
 }
 .shop-sidebar ul li {
@@ -437,4 +438,243 @@ table {
 }
 .quantity {
   margin: 10px 0;
+}
+.variations label {
+	color: black;
+    font-size: 15px;
+}
+.woocommerce-ordering {
+	display: none;
+}
+#woocommerce_product_categories-2 h1 {
+    /*border-bottom: 2px solid rgb(0,255,255);*/
+    border-bottom: 4px solid rgb(21,234,228);
+    display: inline-block;
+}
+#yith-woo-ajax-navigation-3 h1 {
+    /*border-bottom: 2px solid rgb(0,255,0);*/
+    border-bottom: 4px solid rgb(155,234,21);
+    display: inline-block;	
+}
+.widget a {
+	color: black;
+}
+.volume {
+	  display: flex;
+  font-size: 0;
+  flex-wrap: wrap;
+  margin: -10px 0 0 -10px;
+}
+.volume li {
+    display: inline-block;
+    border: 1px solid #ccc;
+    margin:10px 0 0 2%;
+    flex-grow: 1;
+    height:36px;
+    width: calc(100% * (1/3) - 10px - 1px);
+}
+.volume li a {
+	font-size: 17px;
+}
+#yith-woo-ajax-navigation-2 h1 {
+    /*border-bottom: 2px solid rgb(255,255,0);*/
+    border-bottom: 4px solid rgb(234,204,19);
+    display: inline-block;		
+}
+#yith-woo-ajax-navigation-2 ul {
+	margin-left: 0;
+}
+#yith-woo-ajax-navigation-2 ul li {
+	padding: 2px;
+}
+#yith-woo-ajax-navigation-4 h1 {
+    /*border-bottom: 2px solid rgb(126,0,126);*/
+        border-bottom: 4px solid rgb(234,125,20);
+    display: inline-block;		
+}
+#yith-woo-ajax-navigation-4 ul {
+	margin-left: 0;
+}
+#yith-woo-ajax-navigation-5 h1 {
+    /*border-bottom: 2px solid rgb(255,0,0);*/
+    border-bottom: 4px solid rgb(233,22,67);
+    display: inline-block;	
+}
+#yith-woo-ajax-navigation-5 ul {
+	margin-left: 0;
+}
+#yith-woo-ajax-navigation-5 ul li {
+	padding: 0;
+}
+#woocommerce_product_categories-3 .product-categories > li {
+	display: none;
+}
+#woocommerce_product_categories-3 .product-categories > li.cat-parent {
+	display: block;
+}
+#woocommerce_product_categories-3 .product-categories > li.cat-parent > a {
+	display: none;
+}
+#woocommerce_product_categories-3 .product-categories .cat-parent .children li {
+	display: block;
+}
+#woocommerce_product_categories-3 .product-categories .cat-parent .children {
+	margin-left:4px;
+}
+#woocommerce_product_categories-3 .product-categories .cat-parent .children li a {
+	text-transform: capitalize;
+}
+#woocommerce_product_categories-3 h1,
+#yith-woo-ajax-navigation-6 h1 {
+    /*border-bottom: 2px solid rgb(252,0,252);*/
+    border-bottom: 4px solid rgb(221,21,234);
+    display: inline-block;		
+}
+#yith-woo-ajax-navigation-3 ul {
+	margin-left: 0;
+}
+#yith-woo-ajax-navigation-6 ul {
+  margin-left: 17px;
+  display: flex;
+    flex-direction: column;
+}
+#yith-woo-ajax-navigation-6 ul.yith-wcan-group li  {
+  padding: 0;
+}
+#woocommerce_product_categories-3 {
+  display: none;
+}
+#yith-woo-ajax-navigation-6 ul li {
+
+}
+/*popup*/
+.b1c-form .description {
+  display: none;
+}
+#formOrderOneClick .b1c-form textarea {
+    width: 239px;
+    height: 25px;
+    padding: 0px 7px;
+}
+#formOrderOneClick .b1c-form .button,
+#formOrderOneClick .b1c-form .button:hover {
+/*    background: -webkit-gradient(linear, left top, right top, from(#3d51c8), to(#051fb8));
+    background: -webkit-linear-gradient(top, #3d51c8, #051fb8);
+    background: -moz-linear-gradient(top, #3d51c8, #051fb8);
+    background: -o-linear-gradient(top, #3d51c8, #051fb8);
+    background: -ms-linear-gradient(top, #3d51c8, #051fb8);
+    background: linear-gradient(top, #3d51c8, #051fb8);*/
+    /*background-color: #3d51c8;*/
+    background: linear-gradient(rgb(250,250,250), rgb(235,235,235));
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+    text-shadow:none;
+   /* border: 1px solid #061fb8;*/
+       border: 1px solid #afafaf;
+    color: #000;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    /*width: 98px;*/
+    width: 100%;
+    padding: 6px;
+    outline: medium none;
+    text-align: center;
+    vertical-align: middle;
+    margin: 10px auto;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: none;
+}
+
+.woocommerce a.button.add_to_cart_button {
+  display: none;
+}
+.shop-content a.button21,
+.woocommerce a.button21 {
+    display: block;
+    padding-left: 0;
+    margin-left: 0;
+}
+.summary a.button21 {
+    display: block;
+    padding-left: 0;
+    margin-left: 0;
+    width: 236px;
+}
+.single_add_to_cart_button {
+  display: none;
+}
+.products #formOrderOneClick  .popup  .close_order,
+.products #formOrderOneClick .popup  .close_order:hover,
+.products #formOrderOneClick .popummessage .close_message,
+.products #formOrderOneClick .popummessage .close_message:hover,
+.summary #formOrderOneClick  .popup  .close_order,
+.summary #formOrderOneClick .popup  .close_order:hover,
+.summary #formOrderOneClick .popummessage .close_message,
+.summary #formOrderOneClick .popummessage .close_message:hover  {
+    font-size: 18px;
+    display: block;
+    width: 6px;
+    line-height: 13px;
+    height: 17px;
+    position: absolute;
+    padding: 1px 9px 4px 9px;
+    top: -1px;
+    right: 4px;
+    cursor: pointer;
+    color: #fff;
+    font-family: 'tahoma', sans-serif;
+    background: none;
+    background-color: none;
+    border: none;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: none;
+    color: black;
+}
+.woocommerce-pagination ul li {
+      float: left;
+    padding: 5px;
+}
+.woocommerce-pagination ul {
+
+}
+.woocommerce-pagination {
+      display: flex;
+    justify-content: center;
+}
+.summary .quantity {
+  display: none;
+}
+.pa_volume td p:after {
+  content: 'л';
+  padding-left: 5px;
+}
+.pa_weight td p:after {
+  content: 'гр';
+  padding-left: 5px;
+}
+.pa_pallets td:after {
+  content: 'шт.';
+  padding-left: 5px;
+}
+.summary .woocommerce-Price-amount.amount:after {
+  content: 'за штуку';
+  padding-left: 5px;  
+}
+.shop_attributes tr {
+  
+}
+.shop_attributes td {
+    width: 153px;
+    display: flex;
+    justify-content: center;
 }

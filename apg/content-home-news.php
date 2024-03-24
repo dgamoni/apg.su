@@ -7,7 +7,7 @@
 	<div class="row">
 <?php
 /* Получаем список категорий news_year */
-$terms = query_posts( 'post_type=news' );
+$terms = query_posts( 'post_type=news&posts_per_page=3' );
 /* Выводим все записи для каждой категории */
 foreach ($terms as $value):
 	//var_dump($value);
@@ -16,6 +16,8 @@ foreach ($terms as $value):
 	$thumb = get_the_post_thumbnail($id);
 	$time = get_the_time('d.m.Y', $id);
 	$title = get_the_title($id);
+	$link = rating_permalink($link,$id);
+
 ?>
 	<div class="col-md-4 container--object">
 		<div class="img"><a href="<?php echo $link; ?>"><?php echo $thumb; ?></a></div>
